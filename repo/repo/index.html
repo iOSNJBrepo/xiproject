@@ -1,0 +1,91 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<style>
+
+h5.date {
+color: #96969B;
+margin-bottom: -25px;
+padding-left: 15px;
+font-weight: 500;
+}
+</style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>iOSNJB</title>
+<link rel="stylesheet" href="css/framework7.ios.min.css">
+<link rel="stylesheet" href="css/framework7.ios.colors.min.css">
+<link rel="stylesheet" href="css/cydiaxi.css">
+
+<script type="text/javascript" src="js/framework7.min.js"></script>
+</head>
+<body id="body">
+<div class="statusbar-overlay"></div>
+<div id="tab" class="view view-main tab active">
+<div class="pages">
+<div data-page="index" class="page">
+<div class="page-content">
+<div class="pull-to-refresh-layer">
+<div class="preloader"></div>
+</div>
+<h5 class="date" id="demo"></h5>
+<div class="content-block">
+<h1 class="header" style="margin-top:0px; margin-bottom:0px;">iOSNJB</h1>
+<center>
+<div class="hr"></div>
+<div class="content-block" style="max-width:350px; margin: 15px; margin-left: -15px;">
+
+
+<div class="app-card-2">
+<p>ADD TO CYDIA.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/inobounce/0.1.5/inobounce.min.js"></script>
+<script type="text/javascript" src="js/cydiaxi.js"></script><script>
+function getToday() {
+    var d = new Date();
+    var weekday = new Array(7);
+    weekday[0] = "Lunes,";
+    weekday[1] = "Martes,";
+    weekday[2] = “Miércoles,";
+    weekday[3] = "Jueves,";
+    weekday[4] = "Viernes";
+    weekday[5] = "Sábado";
+    weekday[6] = "Domingo,";
+
+		var month = new Array();
+    month[0] = "ENERO";
+    month[1] = "FEBRERO";
+    month[2] = "MARZO";
+    month[3] = "ABRIL";
+    month[4] = "MAYO";
+    month[5] = "JUNIO";
+    month[6] = "JULIO";
+    month[7] = "AUGOSTO";
+    month[8] = "SEPTIEMBRE";
+    month[9] = "OCTUBRE";
+    month[10] = "NOVIEMBRE";
+    month[11] = "DICIEMBRE ";
+
+
+   var n1 = weekday[d.getDay()];
+		var n3 = d.getDate();
+		var n2 = month[d.getMonth()];
+    document.getElementById("demo").innerHTML = n1 + " " + n2 + " " + n3;
+}
+
+window.addEventListener("load", getToday, true);
+</script>
+</body>
+</html>
