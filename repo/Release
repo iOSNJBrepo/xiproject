@@ -1,8 +1,8 @@
-Origin: CydiaXIStyle Repo
-Label:iOSNJB Repo
+Origin: iOSNJB Repo
+Label: iOSNJB Repo
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm
+Architecture: iphoneos-arm
 Components: main
-Description:
+Description: iOSNJB Repo

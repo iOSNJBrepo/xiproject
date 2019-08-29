@@ -1,0 +1,16 @@
+
+Package: com.iosnjb.classicpack
+Version: 2.0b11
+Architecture: iphoneos-arm
+Maintainer: iOSNJB
+Installed-Size: 
+Depends: mobilesubstrate, preferenceloader, con.spark.snowboard, con.spark.snowboard.dock, con.spark.snowboard.masks
+Filename: /com.iosnjb.classicpack_2.0b11_iphoneos-arm.deb
+Size: 3240588
+MD5sum: 03113819150d6feae42926f45e10effc
+SHA1: f51dc300fd37bf3a5e639e818a5d0ce5edcaa760
+SHA256: 09d2d9c3c28e925669953052df4dd0768361d89f17254226e2e96c5cc74c5422
+Section: Tweaks
+Description: iOS 6 Theme
+Author: iOSNJB
+Name: ClassicPack2
