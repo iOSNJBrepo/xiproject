@@ -14,3 +14,19 @@ Section: Tweaks
 Description: iOS 6 Theme
 Author: iOSNJB
 Name: ClassicPack2
+
+Package: com.iosnjb.classicpack
+Version: 2.0b12
+Architecture: iphoneos-arm
+Maintainer: iOSNJB
+Installed-Size: 
+Depends: mobilesubstrate, preferenceloader
+Filename: /com.iosnjb.classicpack_2.0b12_iphoneos-arm.deb
+Size: 3240468
+MD5sum: f929151c02daf90cf4af61447ea86333
+SHA1: 10b2abdbde874b874dc593b08b9dd6e09d55a834
+SHA256: 77a7b5032e032c633eb7f6021e1d65ff7c108cc132b345b7b1bbc120970550fe
+Section: Tweaks
+Description: iOS 6 Theme
+Author: iOSNJB
+Name: ClassicPack2
