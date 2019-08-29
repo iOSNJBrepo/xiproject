@@ -15,7 +15,7 @@
                 {
                     "class": "DepictionMarkdownView",
                     "useSpacing": true,
-                    "markdown": "Tema estilo iOS 6"
+                    "markdown": "Tema estilo iOS 6 para iOS 7-12"
                 },
                 {
                     "class": "DepictionSpacerView",
@@ -25,7 +25,11 @@
                     "screenshots": [
                         {
                             "accessibilityText": "Screenshot0",
-                            "url": ""
+                            "url": "https://cydiaxistyle.fun/ss1.jpg"
+                        },
+                        {
+                            "accessibilityText": "Screenshot1",
+                            "url": "https://cydiaxistyle.fun/ss2.jpg"
                         }
                     ],
                     "class": "DepictionScreenshotsView",
@@ -33,7 +37,7 @@
                     "itemCornerRadius": 6
                 },
                 {
-                    "markdown": "iOA 6",
+                    "markdown": "Tema estilo iOS 6 para iOS 7-12 \r\nIncluye:\r\n\r\nIconos\r\nSombras\r\nBadges\r\nDock\r\n\r\nSi quieres mas iconos envia tus peticiones a @iOSNJB",
                     "class": "DepictionMarkdownView",
                     "useBoldText": true,
                     "title": "markdown-description",
@@ -74,5 +78,5 @@
         }
     ],
     "tintColor": "#0657bb",
-    "headerImage": ""
+    "headerImage": "https://cydiaxistyle.fun/banner.jpg"
 }
