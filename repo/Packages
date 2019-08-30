@@ -30,4 +30,19 @@ Section: Tweaks
 Description: iOS 6 Theme
 Author: iOSNJB
 Name: ClassicPack2
-SileoDepiction: https://cydiaxistyle.fun/depic.json
+
+Package: com.iosnjb.classicpack
+Version: 2.0b15
+Architecture: iphoneos-arm
+Maintainer: iOSNJB
+Installed-Size: 
+Depends: mobilesubstrate, preferenceloader
+Filename: /com.iosnjb.classicpack_2.0b15_iphoneos-arm.deb
+Size: 3354608
+MD5sum: 2790233b00c71df3a32abeec95a0d20d
+SHA1: 54fa28054936bfa4f77e4ff7c704a6f66943691e
+SHA256: 40423fc66ddac00eec3de53352b18273a335f18a98a36abb0292453c117fdd06
+Section: Tweaks
+Description: iOS 6 Theme
+Author: iOSNJB
+Name: ClassicPack2
