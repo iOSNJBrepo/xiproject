@@ -1,0 +1,27 @@
+{
+  "apps": [
+    {
+      "beta": false,
+      "bundleIdentifier": "com.electrateam.chimera",
+      "developerName": "Electra Team",
+      "downloadURL": "https://chimera.sh/downloads/ios/1.4.0-12.0-12.4.ipa",
+      "iconURL": "https://chimera.sh/img/icon.png",
+      "localizedDescription": "Full-fledged\n\nChimera is the first true iOS 12 jailbreak to not only feature a CoreTrust bypass so that binaries don't need to be resigned, but to also support A12 devices, including iPhone Xs, iPhone Xr, and the newest iPads. Chimera doesn't tamper with user files, making it safer than alternatives.\n\nStable\n\nWe've rewritten Chimera from the ground up to ensure that there's no battery drain, freezing, or crashing. There's simply nothing else like it, and we can't wait for you to see for yourself.\n\nModern\n\nChimera comes with a modern package manager, Sileo, featuring a UI made to fit iOS, and packed full of features and speed enhancements to make installing packages a breeze. Rather than sticking to tools built decades ago, it ships with modern system tools designed to take advantage wherever possible.",
+      "name": "Chimera",
+      "screenshotURLs": [
+        "https://chimera.sh/img/jumbotron.png",
+        "https://iosmac.es/wp-content/uploads/2019/05/Chimera-2.jpg"
+      ],
+      "size": 95839846.4,
+      "subtitle": "All devices, iOS 12 — 12.2 and 12.4",
+      "tintColor": 18084,
+      "version": "1.4.0",
+      "versionDate": "2020-03-24T14:00:00-07:00",
+      "versionDescription": "NEW FEATURES\n• This version uses libhooker internally instead of substitute to apply some patches. (Your tweaks will still run on substitute, but the jailbreak itself now runs on libhooker and should be a lot more stable)"
+    }
+  ],
+  "identifier": "com.example.source",
+  "name": "iOSNJB",
+  "news": [],
+  "userInfo": {}
+}
